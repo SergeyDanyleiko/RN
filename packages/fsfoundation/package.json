@@ -1,0 +1,17 @@
+{
+  "name": "@brandingbrand/fsfoundation",
+  "sideEffects": false,
+  "version": "8.4.0",
+  "description": "Foundation types for Flagship",
+  "main": "dist/index.js",
+  "types": "./dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "tsc",
+    "tsc:watch": "tsc -w --preserveWatchOutput"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "gitHead": "6261ffc8c139f8986f531ccca430900d75570ccc"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "@brandingbrand/fslocator",
+  "sideEffects": false,
+  "version": "8.4.0",
+  "description": "Locator React Components",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepare": "tsc",
+    "tsc:watch": "tsc -w --preserveWatchOutput"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@brandingbrand/fscomponents": "^8.4.0",
+    "@brandingbrand/fsengage": "^8.4.0",
+    "@brandingbrand/fsfoundation": "^8.4.0",
+    "@brandingbrand/fsi18n": "^8.4.0",
+    "@brandingbrand/fsnetwork": "^8.4.0",
+    "google-map-react": "^1.0.4",
+    "lodash-es": "^4.17.10",
+    "react": "16.8.3",
+    "react-native": "0.59.10",
+    "react-native-geocoder": "^0.5.0",
+    "react-native-maps": "https://github.com/brandingbrand/react-native-maps.git#0.21.0-gradle2",
+    "react-native-open-settings": "^1.0.1",
+    "react-native-permissions": "~1.1.1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "gitHead": "6261ffc8c139f8986f531ccca430900d75570ccc"
+}
